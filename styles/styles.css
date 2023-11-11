@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 376px){
+
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+        height: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .container {
+        width: 80%;
+        height: 60%;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        border-radius: 15px;
+    }
+
+    .marketing-description {
+        width: 40%;
+        height: auto;
+        padding: 5%;
+        border-radius: 15px;
+    }
+
+    .marketing-description > h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        font-size: 42px;
+        margin-bottom: 5%;
+    }
+
+    .marketing-description > h1 > span {
+        color: hsl(277, 64%, 61%);
+    }
+
+    .marketing-description > p {
+        font-family: 'Inter', sans-serif;;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-right: 6%;
+        margin-bottom: 20%;
+    }
+
+    .marketing-stats {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .stat {
+        width: 30%;
+    }
+
+    .stat > h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 5%;
+    }
+
+    .stat > p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+
+    .image-with-overlay {
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+
+    .marketing-photo {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/image-header-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+    .overlay {
+        position: absolute;
+        z-index: 9;
+        background-color: hsl(277, 64%, 61%, 0.65);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .container {
+        width: 90%;
+        height: 80%;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-with-overlay {
+        width: 100%;
+        height: 30%;
+        position: relative;
+        order: 1;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .marketing-photo {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/image-header-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .overlay {
+        position: absolute;
+        z-index: 9;
+        background-color: hsl(277, 64%, 61%, 0.65);
+        width: 100%;
+        height: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .marketing-description {
+        width: auto;
+        height: auto;
+        padding: 5%;
+        border-radius: 15px;
+        order: 2;
+    }
+
+    .marketing-description > h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        font-size: 28px;
+        margin-bottom: 6%;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .marketing-description > h1 > span {
+        color: hsl(277, 64%, 61%);
+    }
+
+    .marketing-description > p {
+        font-family: 'Inter', sans-serif;;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-right: 3%;
+        margin-bottom: 13%;
+        text-align: center;
+    }
+
+    .marketing-stats {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stat {
+        width: 40%;
+        margin-bottom: 8%;
+    }
+
+    .stat > h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 8%;
+        text-align: center;
+    }
+
+    .stat > p {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.6);
+        width: auto;
+        text-align: center;
+    }
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
