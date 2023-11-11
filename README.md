@@ -27,14 +27,14 @@ Users should be able to:
 ### Screenshot
 
 ### Desktop
-    ![](./screenshots/Desktop/Screenshot%202023-11-11%20at%2001-09-13%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
+![](./screenshots/Desktop/Screenshot%202023-11-11%20at%2001-09-13%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
 ### Mobile
-    ![](./screenshots/mobile/Screenshot%202023-11-11%20at%2001-08-13%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
+![](./screenshots/mobile/Screenshot%202023-11-11%20at%2001-08-13%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AnthonyCampana/stats-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://anthonycampana.github.io/stats-preview-card-component-main/)
 
 ## My process
 
@@ -48,31 +48,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- I learnned fromthis project how to over lay color over an image and to use opacity to alter the color. I also learned how to use flexbox to divide the space needed evenly.
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/) - 
+- [Example resource 1](https://developer.mozilla.org/en-US/) - I used this resource to understand what css properties I needed to replicate the design. 
 
 ## Author
 
